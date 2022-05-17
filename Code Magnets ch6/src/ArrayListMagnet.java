@@ -27,7 +27,7 @@ public class ArrayListMagnet {
 		a.remove(2);
 		
 		if(a.contains("three")) {
-			a.add("four");//index position not specified
+			a.add("four");//bare in mind index position not specified
 		}printAl(a);
 			
 		if(a.indexOf("four") !=4) {
